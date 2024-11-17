@@ -25,4 +25,8 @@ public class Application {
 	public String hello04() {
 		return "Hello, World04";
 	}
+	@GetMapping("/hello05")
+	public String hello05() {
+		return "Hello, World05";
+	}
 }
